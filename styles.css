@@ -3,6 +3,26 @@
 }
 
 .cell{
-    height: 30px;
-    width: 30px;
+    height: 5rem;
+    width: 5rem;
+    background-color: bisque;
+    font-size: 3rem;
+}
+
+.gameboard-container{
+    display: grid;
+    grid-template-rows: 5rem 5rem 5rem;
+    grid-template-columns: 5rem 5rem 5rem;
+    justify-content: center;
+}
+
+.player-details-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 5rem;
+}
+
+.turn-showing-container{
+    text-align: center;
+    font-size: 2rem;
 }
